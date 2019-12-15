@@ -50,6 +50,7 @@ public class MyAsyncTask extends AsyncTask<Void,Integer,Void> {
         TextView textView = (TextView) contextParent.findViewById(R.id.txtStatus);
         textView.setText(number + "%");
     }
+    //Téttttttt
 
     @Override
     protected void onPostExecute(Void aVoid) {
